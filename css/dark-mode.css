@@ -1,0 +1,10 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #121212;
+    --color-text: #e0e0e0;
+    --color-card-bg: #1e1e1e;
+  }
+  body { background: var(--color-bg); color: var(--color-text); }
+  .btn { background: var(--color-primary); color: #fff; }
+  header { background: #004a9f; }
+}
